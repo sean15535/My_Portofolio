@@ -114,3 +114,12 @@ section{
     width: 100%;
     bottom: 0;
 }
+#footer p{
+    margin: 0;
+}
+#footer a{
+    color: #0066cc;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
