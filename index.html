@@ -2,76 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amine</title>
     <link rel="stylesheet" href="style.css">
-    <title>My Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Playfair+Display:wght@400..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <h1>Amine</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>This is a brief introduction about myself.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of my recent projects.</p>
-        <article>
-            <h3>School Management System</h3>
-            <img src="school_management_system.png" alt="School Management System Screenshot" width="600">
-            <p>Description of Project 1.</p>
-            <ul>
-                <li>Feature 1: User-friendly interface for managing student records.</li>
-                <li>Feature 2: Automated attendance tracking and reporting.</li>
-                <li>Feature 3: Integration with online learning platforms.</li>
-            </ul>
-        </article>
-        <article>
-            <h3>E-commerce Website</h3>
-            <img src="ecommerce_website.png" alt="E-commerce Website Screenshot" width="600">
-            <p>Description of Project 2.</p>
-            <ul>
-                <li>Feature 1: Secure payment gateway integration.</li>
-                <li>Feature 2: Responsive design for mobile and desktop.</li>
-                <li>Feature 3: Advanced product search and filtering options.</li>
-            </ul>        
-        </article>
-        <article>
-            <h3>Personal Blog</h3>
-            <img src="personal_blog.png" alt="Personal Blog Screenshot" width="600">
-            <p>Description of Project 3.</p>
-            <ul>
-                <li>Feature 1: Easy-to-use content management system.</li>
-                <li>Feature 2: SEO optimization for better visibility.</li>
-                <li>Feature 3: Social media integration for sharing posts.</li>
-            </ul>        
-        </article>
-
-
-    </section>
-    
-
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at [insert contact information here].</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 My Portfolio</p>
-    </footer>
-</body>
-</html>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Discover my work and learn more about me.</p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </section>
+        <section id="about">            
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hello! I'm Amine, a passionate developer with experience in creating dynamic and responsive websites. I love coding and bringing ideas to life through technology.</p>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <h2>Services</h2>
+                <p>Here are the services I offer:</p>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Responsive Design</li>
+                    <li>UI/UX Design</li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <p>Check out some of my projects:</p>
+                <div class="portfolio-items">
+                    <div class="item">
+                        <h3>Project 1</h3>
+                        <p>Description of Project 1.</p>
+                    </div>
+                    <div class="item">
+                        <h3>Project 2</h3>
+                        <p>Description of Project 2.</p>
+                    </div>
+                    <div class="item">
+                        <h3>Project 3</h3>
+                        <p>Description of Project 3.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Get in touch with me:</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/amine.ghribi.1" target="_blank"><i class="fab fa-facebook"></i></a></li>  
+                    <li><a href="https://www.instagram.com/amine.ghribi/" target="_blank"><i class="fab fa-instagram"></i></a></li>     
