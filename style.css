@@ -34,3 +34,8 @@ footer{
     display: block;
     margin: 20px auto;
 }
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
